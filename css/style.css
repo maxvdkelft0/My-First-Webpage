@@ -1,5 +1,9 @@
 /* classes */
 
-.text__white {
-    color: white;
+.text__black {
+    color: black;
+}
+
+.img__sintlucas {
+    height: 100px;
 }
