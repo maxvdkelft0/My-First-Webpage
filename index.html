@@ -5,14 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Webpage</title>
     <link rel="stylesheet" href="css/style.css">
-
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="text__black">
-    <h1 class="">This is a heading</h1>
-    <h2 class="">This is a subheader</h2>
-    <p class="">This is a paragraph</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Yu7wBTlB8GQ?si=A_fvZ7-q1mELD6rb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></body>
-    <p>Hierboven zie je een documantaire</p>
-    <img class="img__sintlucas" src="img/SintLucas.png" alt="SintLucas Logo">
+<body class="bg-gray-700 text-white p-2">
+
+    <!-- Header -->
+    <div class=" flex items-center justify-center">
+        <div class="flex justify-between px-8 py-4 w-1/2 text-black bg-white  rounded-xl">
+            <a href="">Test</a>
+            <a href="">Test 2</a>
+            <a href="">Test 3</a>
+        </div>
+    </div>
+<div class=" flex items-center justify-center flex-col mt-8">
+    <h1 class="text-4xl font-bold">Mijn eerste website gemaakt met <a class="underline decoration-red-500">HTML</a> & <a class="underline decoration-sky-500">TailwindCSS</a></h1>
+    <p class="text-center mt-4">Mijn naam is Max, 16 jaar oud en volg op dit moment de <br> opleiding Software Development op het Sint-Lucas op Strijp-S in Eindhoven.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/IAwEKe0FAIM?si=zyxOreO0b1ceqcuy&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    <p>Hierboven zie je een documantaire</p>
+    <!-- <img class="img__sintlucas" src="img/SintLucas.png" alt="SintLucas Logo"> -->
+</div>
 
 </html>
