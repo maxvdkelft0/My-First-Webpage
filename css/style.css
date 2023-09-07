@@ -5,4 +5,17 @@
 /* Body */
 body {
     font-family: 'Roboto', sans-serif;
+<<<<<<< HEAD
+=======
+}
+
+/* Classes */
+
+.text__black {
+    color: black;
+}
+
+.img__sintlucas {
+    height: 100px;
+>>>>>>> parent of 10c6986 (v5)
 }
